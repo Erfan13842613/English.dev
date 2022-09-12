@@ -1,0 +1,18 @@
+{% extends 'EnglishTemplate/English_Web.html' %} {% block section %}
+
+<table class="table table-striped">
+  <thead>
+    <th>English Words</th>
+    <th>Meaning</th>
+  </thead>
+  <tbody>
+    {% for en_word,pe_word in zip(English_words,Persion_words) %}
+    <tr>
+      <td>{{ en_word }}</td>
+      <td>{{ pe_word }}</td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+
+{% endblock section %}

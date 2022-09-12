@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>Stylish Portfolio - Start Bootstrap Template</title>
+    <!-- Favicon-->
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="{{ url_for('static',filename='assets/favicon.ico') }}"
+    />
+    <!-- Font Awesome icons (free version)-->
+    <script
+      src="https://use.fontawesome.com/releases/v6.1.0/js/all.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Simple line icons-->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.5.5/css/simple-line-icons.min.css"
+      rel="stylesheet"
+    />
+    <!-- Google fonts-->
+    <link
+      href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link
+      href="{{ url_for('static',filename='css/styles.css') }}"
+      rel="stylesheet"
+    />
+  </head>
+  <body id="page-top">
+    <!-- Navigation-->
+    <a class="menu-toggle rounded" href="#"><i class="fas fa-bars"></i></a>
+    <nav id="sidebar-wrapper">
+      <ul class="sidebar-nav">
+        <li class="sidebar-brand">
+          <a href="#page-top">Made By Erfan Shirkhanei</a>
+        </li>
+        <li class="sidebar-nav-item"><a href="#page-top">Home</a></li>
+        <li class="sidebar-nav-item"><a href="#about">About</a></li>
+        <li class="sidebar-nav-item"><a href="#services">Services</a></li>
+        <li class="sidebar-nav-item"><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <!-- Header-->
+    <header class="masthead d-flex align-items-center">
+      <div class="container px-4 px-lg-5 text-center">
+        <h1 class="mb-1">Sandman Sub Pro</h1>
+        <h3 class="mb-5"><em>A Free Movie Subtitle Including Details</em></h3>
+        <a class="btn btn-primary btn-xl" href="#about">Find Out More</a>
+      </div>
+    </header>
+    <!-- About-->
+    <section class="content-section bg-light" id="about">
+      <div class="container px-4 px-lg-5 text-center">
+        <div class="row gx-4 gx-lg-5 justify-content-center">
+          <div class="col-lg-10">
+            <h2>
+              Sandman subtitle is a free perfect sub To
+              <span class="text-primary"> Increase your knowledge</span>
+            </h2>
+            <p class="lead mb-5">
+              This Subtitle Package Is Inluding The Hard Words , Expressions And
+              Full Subtitles Of !
+              <a href="https://github.com/Erfan13842613/English.dev"
+                >Follow More</a
+              >
+              !
+            </p>
+            <a class="btn btn-dark btn-xl" href="#services">What We Offer</a>
+            <a
+              href="{{ url_for('english.English_Web') }}"
+              class="btn btn-primary btn-xl"
+              >English Stuffs</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Services-->
+    <section
+      class="content-section bg-primary text-white text-center"
+      id="services"
+    >
+      <div class="container px-4 px-lg-5">
+        <div class="content-section-heading">
+          <h3 class="text-secondary mb-0">Services</h3>
+          <h2 class="mb-5">What We Offer</h2>
+        </div>
+        <div class="row gx-4 gx-lg-5">
+          <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
+            <span class="service-icon rounded-circle mx-auto mb-3"
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="40"
+                height="40"
+                fill="currentColor"
+                class="bi bi-file-earmark-text"
+                viewBox="0 0 16 20"
+              >
+                <path
+                  d="M5.5 7a.5.5 0 0 0 0 1h5a.5.5 0 0 0 0-1h-5zM5 9.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5zm0 2a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 0 1h-2a.5.5 0 0 1-.5-.5z"
+                />
+                <path
+                  d="M9.5 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V4.5L9.5 0zm0 1v2A1.5 1.5 0 0 0 11 4.5h2V14a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h5.5z"
+                /></svg
+            ></span>
+            <h4><strong>Words</strong></h4>
+            <p class="text-faded mb-0">Any Existed Hard Words!</p>
+          </div>
+          <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
+            <span class="service-icon rounded-circle mx-auto mb-3"
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="40"
+                height="40"
+                fill="currentColor"
+                class="bi bi-file-earmark-word"
+                viewBox="0 0 16 20"
+              >
+                <path
+                  d="M5.485 6.879a.5.5 0 1 0-.97.242l1.5 6a.5.5 0 0 0 .967.01L8 9.402l1.018 3.73a.5.5 0 0 0 .967-.01l1.5-6a.5.5 0 0 0-.97-.242l-1.036 4.144-.997-3.655a.5.5 0 0 0-.964 0l-.997 3.655L5.485 6.88z"
+                />
+                <path
+                  d="M14 14V4.5L9.5 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2zM9.5 3A1.5 1.5 0 0 0 11 4.5h2V14a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h5.5v2z"
+                /></svg
+            ></span>
+            <h4><strong>Expressions</strong></h4>
+            <p class="text-faded mb-0">All Slang Expressions</p>
+          </div>
+          <div class="col-lg-3 col-md-6 mb-5 mb-md-0">
+            <span class="service-icon rounded-circle mx-auto mb-3"
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="40"
+                height="40"
+                fill="currentColor"
+                class="bi bi-cloud-download-fill"
+                viewBox="0 0 16 20"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M8 0a5.53 5.53 0 0 0-3.594 1.342c-.766.66-1.321 1.52-1.464 2.383C1.266 4.095 0 5.555 0 7.318 0 9.366 1.708 11 3.781 11H7.5V5.5a.5.5 0 0 1 1 0V11h4.188C14.502 11 16 9.57 16 7.773c0-1.636-1.242-2.969-2.834-3.194C12.923 1.999 10.69 0 8 0zm-.354 15.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 14.293V11h-1v3.293l-2.146-2.147a.5.5 0 0 0-.708.708l3 3z"
+                /></svg
+            ></span>
+            <h4><strong>Fully Subtitle</strong></h4>
+            <p class="text-faded mb-0">Full Text Subtitle</p>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <span class="service-icon rounded-circle mx-auto mb-3"
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="40"
+                height="40"
+                fill="currentColor"
+                class="bi bi-chat-square-dots"
+                viewBox="0 0 16 20"
+              >
+                <path
+                  d="M14 1a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1h-2.5a2 2 0 0 0-1.6.8L8 14.333 6.1 11.8a2 2 0 0 0-1.6-.8H2a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h12zM2 0a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h2.5a1 1 0 0 1 .8.4l1.9 2.533a1 1 0 0 0 1.6 0l1.9-2.533a1 1 0 0 1 .8-.4H14a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z"
+                />
+                <path
+                  d="M5 6a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm4 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm4 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"
+                />
+              </svg>
+            </span>
+            <h4><strong>Question</strong></h4>
+            <p class="text-faded mb-0">Ask You Questions Here</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Callout-->
+    <section class="callout">
+      <div class="container px-4 px-lg-5 text-center">
+        <h2 class="mx-auto mb-5">Full Project Package</h2>
+        <a
+          class="btn btn-primary btn-xl"
+          href="https://github.com/Erfan13842613/English-Package"
+          >Download Now!</a
+        >
+      </div>
+    </section>
+    <!-- Sand Man-->
+    <section class="content-section" id="portfolio">
+      <div class="album py-5 bg-light">
+        <div class="container">
+          <div class="row g-4">
+            <div class="col-md-4">
+              <div class="card mb-4 box-shadow">
+                <img
+                  class="card-img-top"
+                  src="{{ url_for('static',filename='assets/img/Netflix-Sandman-already-looks-better-than-expected.webp') }}"
+                  alt="Card image cap"
+                />
+                <div class="card-body">
+                  <p class="card-text">
+                    "The Sandman" tells the story of the young student Nathanael
+                    who falls into madness when he realizes he's fallen in love
+                    with a robot.
+                  </p>
+                  <div
+                    class="d-flex justify-content-between align-items-center"
+                  ></div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <div class="card mb-4 box-shadow">
+                <img
+                  class="card-img-top"
+                  src="{{ url_for('static',filename='assets/img/SandmanTeaser_blog_629e858dcd6ce5.04144633.jpg') }}"
+                  alt="Card image cap"
+                />
+                <div class="card-body">
+                  <p class="card-text">
+                    "The Sandman" is a stark visual exploration of an uncanny
+                    world. Based on the classic 19th century tale by German
+                    writer/composer E.T.A. Hoffmann, the film investigates the
+                    tale's themes of obsession and madness, emphasizing
+                    expressionist imagery and theatrical style.
+                  </p>
+                  <div
+                    class="d-flex justify-content-between align-items-center"
+                  ></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Call to Action-->
+    <section class="content-section bg-primary text-white">
+      <div class="container px-4 px-lg-5 text-center">
+        <h2 class="mb-4">The buttons below are impossible to resist...</h2>
+        <a
+          class="btn btn-xl btn-light me-4"
+          href="{{ url_for('base.License') }}"
+          >License</a
+        >
+        <a class="btn btn-xl btn-dark" href="{{ url_for('base.About_Me') }}"
+          >About Me</a
+        >
+      </div>
+    </section>
+    <!-- Map-->
+    <div class="map" id="contact">
+      <iframe
+        src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;aq=0&amp;oq=twitter&amp;sll=28.659344,-81.187888&amp;sspn=0.128789,0.264187&amp;ie=UTF8&amp;hq=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;t=m&amp;z=15&amp;iwloc=A&amp;output=embed"
+      ></iframe>
+      <br />
+      <small
+        ><a
+          href="https://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;aq=0&amp;oq=twitter&amp;sll=28.659344,-81.187888&amp;sspn=0.128789,0.264187&amp;ie=UTF8&amp;hq=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;t=m&amp;z=15&amp;iwloc=A"
+        ></a
+      ></small>
+    </div>
+    <!-- Footer-->
+    <footer class="footer text-center">
+      <div class="container px-4 px-lg-5">
+        <ul class="list-inline mb-5">
+          <li class="list-inline-item">
+            <a
+              class="social-link rounded-circle text-white"
+              href="https://github.com/Erfan13842613/English.dev"
+              ><i class="icon-social-github"></i
+            ></a>
+          </li>
+        </ul>
+        <p class="text-muted small mb-0">Copyright &copy; Erfan Website 2022</p>
+      </div>
+    </footer>
+    <!-- Scroll to Top Button-->
+    <a class="scroll-to-top rounded" href="#page-top"
+      ><i class="fas fa-angle-up"></i
+    ></a>
+    <!-- Bootstrap core JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Core theme JS-->
+    <script src="{{ url_for('static',filename='js/scripts.js') }}"></script>
+  </body>
+</html>
